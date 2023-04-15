@@ -1,0 +1,28 @@
+* {
+    user-select: none;
+    font-family: "Poppins", sans-serif !important;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    max-width: 400px;
+    padding: 10px;
+}
+h1 {
+    font-size: 18px;
+    margin: 0;
+}
+.form-check input,
+.form-check label {
+    cursor: pointer;
+}
+.form-check-input {
+    margin: 3px 0 !important;
+}
+label i {
+    margin: 0 10px;
+}
